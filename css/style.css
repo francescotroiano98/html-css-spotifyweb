@@ -25,7 +25,6 @@ footer{
     width: 100%;
 }
 .nav-bottom{
-    padding-top: 6em;
     width: 100%;
 }
 ul{
@@ -58,6 +57,9 @@ hr{
 }
 .flex{
     display: flex;
+}
+.flex-column{
+    flex-direction: column;
 }
 .wrap{
     flex-wrap: wrap;
