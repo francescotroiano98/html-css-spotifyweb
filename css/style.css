@@ -33,6 +33,7 @@ ul{
     padding: 1em;
 }
 li{
+    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -123,6 +124,14 @@ section.contents img{
 }
 .text-white{
     color: white;
+}
+.border-left{
+    position: absolute;
+    left: -16px;
+    height: 27px;
+    width: 2px;
+    background-color: #1cff35;
+    top: -2px;
 }
 .text-small{
     font-size: 0.7rem;
