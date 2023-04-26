@@ -2,4 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+}
+main nav{
+    width: 250px;
+    height: calc(100vh - 130px);
+    background-color: brown;
+}
+main section.contents{
+    width: calc(100% - 250px);
+    height: calc(100vh - 130px);
+    background-color:chartreuse;
+}
+footer{
+    height: 130px;
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 1em;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.square{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cross{
+    position: absolute;
+    
+}
+.margin-bottom{
+    margin-bottom: 2em;
+}
+.icon-width{
+    width: 24px;
+}
+.text-white{
+    color: white;
+}
+.text-small{
+    font-size: small;
+}
+.margin-left{
+    margin-left: 2px;
+}
+.opacity{
+    opacity: 60%;
 }
