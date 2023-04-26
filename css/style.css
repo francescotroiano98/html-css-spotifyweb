@@ -15,7 +15,8 @@ main nav{
 main section.contents{
     width: calc(100% - 250px);
     height: calc(100vh - 80px);
-    background-color:chartreuse;
+    background-color:rgb(30, 36, 68);
+    overflow-y: scroll;
 }
 footer{
     height: 80px;
@@ -55,6 +56,44 @@ hr{
     margin: 10px 0px;
     width: 100%;
 }
+.top-1{
+    width: 100%;
+    height: 10%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.top-2{
+    width: 100%;
+    height: 10%;
+    border: 2px solid rgb(255, 238, 0);
+}
+.recently-played{
+    width: 100%;
+    height: calc(80% / 3);
+    border: 2px solid blue;
+}
+section.contents img{
+    width: 100%;
+    
+}
+.song{
+    height: 100%;
+    width: calc((100% / 6) - 2 * 3px);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.user-songs{
+    width: 100%;
+    height: calc(80% / 3);
+    border: 2px solid rgb(0, 217, 255);
+}
+.popoular-artist{
+    width: 100%;
+    height: calc(80% / 3);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+
 .flex{
     display: flex;
 }
@@ -66,6 +105,9 @@ hr{
 }
 .space-between{
     justify-content: space-between;
+}
+.text-center{
+    text-align: center;
 }
 .content-center{
     justify-content: center;
