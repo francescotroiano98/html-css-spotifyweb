@@ -29,7 +29,7 @@ section.contents-main{
 }
 footer{
     height: 80px;
-    background-color: rgb(8, 0, 124);
+    background-color: #282828;
 }
 .block{
     display: block;
@@ -54,6 +54,9 @@ footer{
 }
 .width-80{
     width: 80%;
+}
+.height-100{
+    height: 100%;
 }
 .margin-left{
     margin-left: 0.3em;
@@ -159,9 +162,10 @@ section.contents h1{
     border: 2px solid red;
 }
 .play-setup{
-    width: calc(70% - 400px);
+    width: calc(100% - 400px);
     height: 100%;
     border: 2px solid rgb(0, 255, 21);
+    min-width: 171px;
 }
 .volume-setup{
     width: 200px;
@@ -183,12 +187,26 @@ section.contents h1{
     margin: 0.5em;
 
 }
+.play-setup i{
+    margin: 0 0.5em;
+}
+.font-size{
+    font-size: 2em;
+}
 .volume-setup i{
     margin: 0.3em;
 }
 .line{
     height: 2px;
     background-color: white;
+}
+.play-options{
+    height: 40%;
+    width: 100%;
+}
+.time{
+    height: 40%;
+    width: 100%;
 }
 
 
