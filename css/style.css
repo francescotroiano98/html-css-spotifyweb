@@ -129,6 +129,7 @@ section.contents h1{
 .song-setup{
     width: 17%;
     height: 100%;
+    padding: 1em;
     border: 2px solid red;
 }
 .play-setup{
@@ -140,6 +141,13 @@ section.contents h1{
     width: 17%;
     height: 100%;
     border: 2px solid red;
+}
+.song-image{
+    width: 30px;
+    height: 30px;
+}
+.song-image img{
+    width: 100%;
 }
 
 
