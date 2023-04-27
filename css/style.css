@@ -29,8 +29,26 @@ footer{
 .margin{
     margin: 0 auto;
 }
+.width-100{
+    width: 100%;
+}
 .width-70{
     width: 70%;
+}
+.width-60{
+    width: 60%;
+}
+.width-30{
+    width: 30%;
+}
+.width-20{
+    width: 20%;
+}
+.width-80{
+    width: 80%;
+}
+.margin-left{
+    margin-left: 0.3em;
 }
 button{
     border-radius: 30px;
@@ -127,20 +145,21 @@ section.contents h1{
     height: 100%;
 }
 .song-setup{
-    width: 17%;
+    width: 200px;
     height: 100%;
-    padding: 1em;
+    padding: 1em 0.5em;
     border: 2px solid red;
 }
 .play-setup{
-    width: 40%;
+    width: calc(70% - 400px);
     height: 100%;
     border: 2px solid rgb(0, 255, 21);
 }
 .volume-setup{
-    width: 17%;
+    width: 200px;
     height: 100%;
     border: 2px solid red;
+    padding: 1em 0.5em;
 }
 .song-image{
     width: 30px;
@@ -156,7 +175,13 @@ section.contents h1{
     margin: 0.5em;
 
 }
-
+.volume-setup i{
+    margin: 0.3em;
+}
+.line{
+    height: 2px;
+    background-color: white;
+}
 
 
 .flex{
