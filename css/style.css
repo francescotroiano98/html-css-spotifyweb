@@ -175,7 +175,7 @@ section.contents h1{
 .invert{
     filter: invert(1);
 }
-@media screen and (max-width:878px) {
+@media screen and (max-width:992px) {
     div.recently-played{
         flex-wrap: wrap;
     }
@@ -186,7 +186,7 @@ section.contents h1{
     }
     
 }
-@media screen and (max-width:639px) {
+@media screen and (max-width:768px) {
     div.recently-played{
         flex-wrap: wrap;
     }
@@ -197,7 +197,7 @@ section.contents h1{
     }
     
 }
-@media screen and (max-width:552px) {
+@media screen and (max-width:576px) {
     main section.contents{
         width: unset;
     }
