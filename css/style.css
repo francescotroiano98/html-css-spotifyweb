@@ -87,6 +87,11 @@ li{
     align-items: center;
     margin-bottom: 10px;
 }
+li a{
+    text-decoration: none;
+    color: white;
+
+}
 div.top-2 li{
     position: relative;
     display: flex;
@@ -282,6 +287,16 @@ section.contents h1{
 .invert{
     filter: invert(1);
 }
+/*HOVER*/
+li:hover{
+    opacity: unset;
+
+}
+
+
+
+
+/*RESPONSIVE*/
 @media screen and (max-width:992px) {
     div.recently-played{
         flex-wrap: wrap;
@@ -291,7 +306,10 @@ section.contents h1{
         width: calc((100% / 4) - 1em);
         margin-right: 1em;
     }
-    
+    div.top-2 li{
+        padding: 0px 2em;
+        margin-bottom: 2em;
+    }
 }
 
 @media screen and (max-width:768px) {
