@@ -15,9 +15,17 @@ main nav{
 main section.contents{
     width: calc(100% - 180px);
     height: calc(100vh - 80px);
-    background-color:rgb(30, 36, 68);
+    background-color:rgb(20 25 34);
     overflow-y: scroll;
+}
+section.contents-top{
+    padding: 0.5em;
+    background-color:rgb(8 11 18);
+
+}
+section.contents-main{
     padding: 1em;
+    
 }
 footer{
     height: 80px;
@@ -52,12 +60,13 @@ footer{
 }
 button{
     border-radius: 30px;
-    background-color: rgb(5, 8, 48);
+    background-color: rgb(8 11 18);
     padding: 0.8em 1.8em;
     font-size: 0.6em;
 }
 .nav-top{
     width: 100%;
+    
 }
 .nav-bottom{
     width: 100%;
@@ -104,7 +113,6 @@ hr{
 }
 .top-2{
     width: 100%;
-    height: 10%;
     border: 2px solid rgb(255, 238, 0);
 }
 .recently-played{
