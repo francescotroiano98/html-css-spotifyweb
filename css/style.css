@@ -149,6 +149,13 @@ section.contents h1{
 .song-image img{
     width: 100%;
 }
+.song-setup i{
+    margin: 0.3em;
+}
+.album-name{
+    margin: 0.5em;
+
+}
 
 
 
