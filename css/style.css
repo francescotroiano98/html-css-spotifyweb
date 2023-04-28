@@ -20,6 +20,7 @@ main section.contents{
 }
 section.contents-top{
     padding: 0.5em;
+    height: 80px;
     background-color:rgb(8 11 18);
 
 }
@@ -78,7 +79,6 @@ button{
     position: fixed;
     z-index: 1;
     margin-right: 2em;
-    margin-top: 1em;
     border-radius: 30px;
     background-color: rgb(8 11 18);
     padding: 0.8em 1.8em;
@@ -192,6 +192,9 @@ section.contents h1{
     height: 100%;
     min-width: 171px;
 }
+.play{
+    font-size: 25px;
+}
 .volume-setup{
     width: 200px;
 
@@ -216,7 +219,7 @@ section.contents h1{
     color: white;
 }
 .play-setup i{
-    margin: 0 0.5em;
+    margin: 0 10px;
 }
 .font-size{
     font-size: 2em;
@@ -225,8 +228,17 @@ section.contents h1{
     margin: 0.3em;
 }
 .line{
-    height: 2px;
+    height: 3px;
     background-color: white;
+}
+.ball{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    right: -7.5px;
+    bottom: calc(50% - 7.5px);
+    display: none;
 }
 .play-options{
     height: 40%;
@@ -361,7 +373,23 @@ button:hover{
     cursor: pointer;
     opacity: unset;
 }
+.play:hover{
+    font-size: 35px ;
+    cursor: pointer;
+}
+.line-large:hover .ball{
+    display: block;
+    
+    
+}
+.line-large:hover{
+    cursor: pointer;
 
+}
+.line-large:hover .width-20{
+    background-color: #1cff35;
+
+}
 
 
 /*RESPONSIVE*/
