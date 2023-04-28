@@ -126,7 +126,6 @@ div.top-2 li{
     height: 30px;
     background-color: white;
     font-size: 2em;
-    margin-right: 3px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -247,6 +246,9 @@ section.contents h1{
 .time{
     height: 40%;
     width: 100%;
+}
+.what-time{
+    margin: 0.5em;
 }
 .song i{
     position: absolute;
@@ -430,6 +432,16 @@ button:hover{
         
         width: unset;
     }
+    .nav-top ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bottom ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     section.contents{
         width: 100px;
     }
@@ -441,8 +453,19 @@ button:hover{
         width: calc((100% / 2) - 1em);
         margin-right: 1em;
     }
+    .song-setup{
+        padding-right: 1.5em;
+    }
+    .volume-setup{
+        padding-left: 1.5em;
+    }
+    div.song-setup .no-wrap{
+        flex-wrap: wrap;
+    }
     .favicon{
         display: block;
     }
-    
+    .download{
+        margin-right: 3px;
+    }
 }
