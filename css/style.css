@@ -31,6 +31,10 @@ footer{
     height: 80px;
     background-color: #282828;
 }
+.logo-white{
+    padding: 1em;
+    width: 150px;
+}
 .block{
     display: block;
 }
@@ -71,10 +75,19 @@ footer{
     margin-left: 0.3em;
 }
 button{
+    position: fixed;
+    z-index: 1;
+    margin-right: 2em;
+    margin-top: 1em;
     border-radius: 30px;
     background-color: rgb(8 11 18);
     padding: 0.8em 1.8em;
     font-size: 0.6em;
+    font-weight: bold;
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 .nav-top{
     width: 100%;
@@ -137,6 +150,7 @@ hr{
 }
 section.contents img{
     width: 100%;
+    display: block;
     
 }
 section.contents h1{
@@ -197,6 +211,10 @@ section.contents h1{
     margin: 0.5em;
 
 }
+.album-name a{
+    text-decoration: none;
+    color: white;
+}
 .play-setup i{
     margin: 0 0.5em;
 }
@@ -232,6 +250,10 @@ section.contents h1{
 .relative{
     position: relative;
 }
+
+
+
+
 
 .flex{
     display: flex;
@@ -307,15 +329,37 @@ section.contents h1{
     filter: invert(1);
 }
 /*HOVER*/
+.contents i:hover{
+    cursor: pointer;
+}
+.nav-top li:hover{
+    cursor: pointer;
+}
 li:hover{
     opacity: unset;
 
 }
-img:hover{
+.contents img:hover{
     opacity: 60%;
 }
+.contents img:hover{ 
+    cursor: pointer;
+}
+
+
 .play-button:hover .big-play{
     display: block;
+}
+button:hover{
+    font-size: 0.8em;
+}
+.album-name a:hover{
+    text-decoration: underline;
+    opacity: unset;
+}
+.song-setup i:hover{
+    cursor: pointer;
+    opacity: unset;
 }
 
 
