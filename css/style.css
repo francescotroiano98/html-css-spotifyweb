@@ -29,8 +29,10 @@ section.contents-main{
     
 }
 footer{
+    position: sticky;
     height: 80px;
     background-color: #282828;
+
 }
 .logo-white{
     padding: 1em;
@@ -92,6 +94,10 @@ button a{
 .nav-top{
     width: 100%;
     
+}
+.play-list{
+width: 100%;
+gap: 10%;
 }
 .nav-bottom{
     width: 100%;
@@ -292,6 +298,9 @@ section.contents h1{
 }
 .text-center{
     text-align: center;
+}
+.padding-bottom-0{
+    padding-bottom: 0px;
 }
 .content-center{
     justify-content: center;
